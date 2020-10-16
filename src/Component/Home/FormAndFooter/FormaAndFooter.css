@@ -1,0 +1,28 @@
+.footer-container {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.ipnut-style {
+    background-color: white;
+    border: none;
+    height: 65px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.email-input::placeholder{
+    color: black;
+}
+
+.ipnut-style:focus {
+    outline: none;
+}
+
+.footerbg {
+    background-color: #FBD062;
+}
+.form-details{
+    height: 300px;
+    padding: 15px;
+}

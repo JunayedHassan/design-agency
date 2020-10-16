@@ -1,0 +1,28 @@
+.login-form {
+    border: 2px solid rgb(167, 166, 166);
+    width: 30%;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.login-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.google-login {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 200px;
+}
+
+.google-login p {
+    margin: 0;
+}
+.google-login a{
+    color: black;
+}
+.google-login a:hover{
+    text-decoration: none;
+}
