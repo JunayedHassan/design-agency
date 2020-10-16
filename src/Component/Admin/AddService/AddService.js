@@ -1,31 +1,8 @@
 import React, { useState } from 'react';
-import logoIcon from '../../../images/icons/service1.png';
 import './AddService.css';
 import { faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// const fakeOrder = [
-//     {
-//         logo: logoIcon,
-//         id: 1,
-//         title: 'Web & Mobile design',
-//         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, explicabo!',
-//         status: 0,
-//     },
-//     {
-//         logo: logoIcon,
-//         id: 2,
-//         title: 'Web & Mobile design2',
-//         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, explicabo!',
-//         status: 0,
-//     },
-//     {
-//         logo: logoIcon,
-//         id: 3,
-//         title: 'Web & Mobile design3',
-//         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, explicabo!',
-//         status: 0,
-//     },
-// ]
+
 const AddService = () => {
 
     const [serviceDetail, setServiceDetail] = useState({});
@@ -67,19 +44,6 @@ const AddService = () => {
             document.getElementById("file-upload").value = '';
             document.getElementById("service-title").value = '';
         }
-
-
-
-
-
-
-        // fetch('https://calm-refuge-89683.herokuapp.com/addevents', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify(eventArray)
-        // })
 
         e.preventDefault();
     }

@@ -7,7 +7,6 @@ const ServiceReqCard = (props) => {
     const serviceReqStyle = { width: '20%', display: 'inline-block' }
 
     const getValue = (e) => {
-        // console.log(e.target.innerText, _id, specificServiceId);
         const getStatus = e.target.innerText;
         const updateStatus = { getStatus, _id };
         fetch(`https://dry-journey-91086.herokuapp.com/update/${_id}`, {

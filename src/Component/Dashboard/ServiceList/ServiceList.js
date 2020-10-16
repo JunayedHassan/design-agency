@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { UserContext } from '../../../App';
-import logoIcon from '../../../images/icons/service1.png';
 import ServiceCard from '../ServiceCard/ServiceCard';
 
 

@@ -20,10 +20,8 @@ const Login = () => {
                 setgetAdminEmail(data);
             })
     }, [])
-    // const adminEmail = ['adarshateam12@gmail.com', 'jon@gmail.com']
     const history = useHistory();
     const location = useLocation();
-    // let { from } = location.state || { from: { pathname: "/" } };
 
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const provider = new firebase.auth.GoogleAuthProvider();
